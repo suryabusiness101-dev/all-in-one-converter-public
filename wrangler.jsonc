@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "convertgrove",
+  "compatibility_date": "2026-07-14",
+  "workers_dev": false,
+  "routes": [
+    { "pattern": "convertgrove.com", "custom_domain": true }
+  ],
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "single-page-application"
+  }
+}

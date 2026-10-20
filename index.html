@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Free Online Unit Converter, Base64 & Epoch Converter | ConvertGrove</title>
+    <meta
+      name="description"
+      content="ConvertGrove is a free online converter app: a unit converter for weight, length, area, pressure, density, power, torque, and time, plus a Base64 encoder, an epoch time converter, a base converter, and a color harmonizer. Instant, 100% client-side, no sign-up."
+    />
+    <meta name="theme-color" content="#020617" />
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
+    <script>
+      (function () {
+        try {
+          if (localStorage.getItem('theme') === 'light') {
+            document.documentElement.classList.add('light');
+          }
+        } catch (e) {}
+      })();
+    </script>
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="ConvertGrove" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:title" content="Free Online Unit Converter, Base64 & Epoch Converter | ConvertGrove" />
+    <meta
+      property="og:description"
+      content="ConvertGrove is a free online converter app: a unit converter for weight, length, area, pressure, density, power, torque, and time, plus a Base64 encoder, an epoch time converter, a base converter, and a color harmonizer. Instant, 100% client-side, no sign-up."
+    />
+    <meta property="og:image" content="https://convertgrove.com/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="ConvertGrove — free online unit converter, Base64 encoder, epoch time converter, and color harmonizer" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Free Online Unit Converter, Base64 & Epoch Converter | ConvertGrove" />
+    <meta
+      name="twitter:description"
+      content="ConvertGrove is a free online converter app: a unit converter for weight, length, area, pressure, density, power, torque, and time, plus a Base64 encoder, an epoch time converter, a base converter, and a color harmonizer. Instant, 100% client-side, no sign-up."
+    />
+    <meta name="twitter:image" content="https://convertgrove.com/og-image.png" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "ConvertGrove",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "Any (runs in browser)",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "description": "Free, instant, 100% client-side converter tools: a unit converter (weight, length, area, pressure, density, power, torque, time, temperature, speed, volume, energy, digital storage, angle), Base64 encoder/decoder, number base converter, epoch time converter, and color harmonizer."
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

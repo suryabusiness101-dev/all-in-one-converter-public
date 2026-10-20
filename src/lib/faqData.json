@@ -1,0 +1,22 @@
+[
+  {
+    "q": "Is my data uploaded to a server?",
+    "a": "No. Every converter runs entirely in your browser using JavaScript. Nothing you type or upload ever leaves your device."
+  },
+  {
+    "q": "Is ConvertGrove free to use?",
+    "a": "Yes, completely free with no account, sign-up, or usage limits."
+  },
+  {
+    "q": "Does it work offline?",
+    "a": "Once the page has loaded, most tools continue to work without an internet connection since all processing happens client-side."
+  },
+  {
+    "q": "What tools are available?",
+    "a": "Base64 encode/decode, a smart unit converter (length, weight, temperature, speed, digital storage, area, volume, pressure, energy, angle), a number base converter (binary/octal/decimal/hex), a timezone & epoch converter, and a color code harmonizer (HEX/RGB/HSL/CMYK)."
+  },
+  {
+    "q": "I found a bug or have a feature request, what do I do?",
+    "a": "Reach out via the Contact Us link in the footer and we will take a look."
+  }
+]

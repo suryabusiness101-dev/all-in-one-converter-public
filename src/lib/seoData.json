@@ -1,0 +1,173 @@
+{
+  "siteUrl": "https://convertgrove.com",
+  "siteName": "ConvertGrove",
+  "home": {
+    "path": "/",
+    "navLabel": "Home",
+    "tagline": "Free online converter app for units, Base64, epoch time & color codes",
+    "title": "Free Online Unit Converter, Base64 & Epoch Converter | ConvertGrove",
+    "description": "ConvertGrove is a free online converter app: a unit converter for weight, length, area, pressure, density, power, torque, and time, plus a Base64 encoder, an epoch time converter, a base converter, and a color harmonizer. Instant, 100% client-side, no sign-up.",
+    "jsonLd": {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "ConvertGrove",
+      "applicationCategory": "UtilitiesApplication",
+      "operatingSystem": "Any (runs in browser)",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+      "description": "Free, instant, 100% client-side converter tools: a unit converter (weight, length, area, pressure, density, power, torque, time, temperature, speed, volume, energy, digital storage, angle), Base64 encoder/decoder, number base converter, epoch time converter, and color harmonizer."
+    }
+  },
+  "routes": [
+    {
+      "path": "/base64-encoder-decoder",
+      "navLabel": "Base64 Encoder/Decoder",
+      "tagline": "Text & File Base64 Conversion",
+      "h1": "Base64 Encoder & Decoder Online",
+      "title": "Base64 Encoder & Decoder Online | ConvertGrove",
+      "description": "Free Base64 encoder online for text and files, with drag, drop, and paste support. This Base64 converter encodes and decodes instantly — 100% client-side, so your data never leaves your device.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Base64 Encoder/Decoder | ConvertGrove",
+        "description": "Free online Base64 encoder and Base64 converter for text and files. Runs entirely in your browser.",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "Any (runs in browser)",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      }
+    },
+    {
+      "path": "/unit-converter",
+      "navLabel": "Smart Unit Converter",
+      "tagline": "Weight, Length, Area, Pressure, Density, Power, Torque, Time & More",
+      "h1": "Free Online Unit Converter",
+      "title": "Free Unit Converter Online — Weight, Length, Area, Pressure & More | ConvertGrove",
+      "description": "Convert weight, length, area, pressure, density, power, torque, time, temperature, speed, volume, energy, digital storage, and angle units instantly with ConvertGrove's free unit converter — fourteen categories in one tool, running entirely in your browser, no sign-up.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Smart Unit Converter | ConvertGrove",
+        "description": "Free online unit converter for weight, length, area, pressure, density, power, torque, time, temperature, speed, volume, energy, digital storage, and angle. Runs entirely in your browser.",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "Any (runs in browser)",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      }
+    },
+    {
+      "path": "/base-converter",
+      "navLabel": "Base Converter",
+      "tagline": "Binary, Octal, Decimal & Hexadecimal",
+      "h1": "Binary, Decimal, Octal & Hex Converter",
+      "title": "Binary, Decimal, Octal & Hex Converter Online | ConvertGrove",
+      "description": "Convert numbers between binary, octal, decimal, and hexadecimal instantly, with BigInt precision for arbitrarily large values. Free, client-side, no sign-up.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Base Converter | ConvertGrove",
+        "description": "Free binary, octal, decimal, and hexadecimal number converter with BigInt precision. Runs entirely in your browser.",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "Any (runs in browser)",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      }
+    },
+    {
+      "path": "/timezone-epoch-converter",
+      "navLabel": "Timezone & Epoch",
+      "tagline": "Timezone Converter, Epoch Converter & World Clock",
+      "h1": "Epoch Time Converter & Timezone Tool",
+      "title": "Epoch Time Converter Online — Timezone & World Clock | ConvertGrove",
+      "description": "Convert a date and time between any two timezones, or between a Unix epoch timestamp and local date and time — DST-aware, with a live world clock and pinned zones. Free, instant, 100% client-side.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Timezone & Epoch Converter | ConvertGrove",
+        "description": "Free timezone converter and epoch converter, DST-aware, with a live world clock across major timezones. Runs entirely in your browser.",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "Any (runs in browser)",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      }
+    },
+    {
+      "path": "/color-converter",
+      "navLabel": "Color Harmonizer",
+      "tagline": "HEX, RGB, HSL & CMYK",
+      "h1": "Color Harmonizer — HEX, RGB, HSL & CMYK Converter",
+      "title": "Color Harmonizer — HEX, RGB, HSL & CMYK Converter | ConvertGrove",
+      "description": "ConvertGrove's Color Harmonizer converts colors between HEX, RGB, HSL, and CMYK with a live swatch preview. Free online color code converter, no sign-up.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Color Harmonizer | ConvertGrove",
+        "description": "Free Color Harmonizer for HEX, RGB, HSL, and CMYK color codes with a live swatch preview. Runs entirely in your browser.",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "Any (runs in browser)",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      }
+    }
+  ],
+  "longTailRoutes": [
+    {
+      "path": "/base64-to-file",
+      "navLabel": "Base64 to File",
+      "tagline": "Decode a Base64 String to a Downloadable File",
+      "h1": "Base64 to File Converter",
+      "title": "Base64 to File — Decode Base64 to a Download Online | ConvertGrove",
+      "description": "Paste a Base64 string or data URI and decode it straight to a downloadable file, with automatic file-type detection from magic bytes. Free, instant, 100% client-side — your data never leaves the browser.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Base64 to File Converter | ConvertGrove",
+        "description": "Free online tool to decode a Base64 string or data URI to a downloadable file, with automatic file-type detection. Runs entirely in your browser.",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "Any (runs in browser)",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      }
+    },
+    {
+      "path": "/hex-to-binary-bitmask",
+      "navLabel": "Hex/Binary Bitmask",
+      "tagline": "Read Bitmasks, Flags & Memory Addresses in Hex and Binary",
+      "h1": "Hex to Binary for Bitmasks & Memory Addresses",
+      "title": "Hex to Binary Converter for Bitmasks & Memory Addresses | ConvertGrove",
+      "description": "Convert hex to binary to read permission bits, flag registers, subnet masks, and memory addresses, with BigInt precision for values of any size. Free, instant, 100% client-side.",
+      "jsonLd": {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Hex to Binary Bitmask Converter | ConvertGrove",
+        "description": "Free hex-to-binary converter for reading bitmasks, flag registers, subnet masks, and memory addresses, with BigInt precision. Runs entirely in your browser.",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "Any (runs in browser)",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      }
+    }
+  ],
+  "legalRoutes": [
+    {
+      "path": "/about",
+      "navLabel": "About",
+      "tagline": "About ConvertGrove",
+      "title": "About Us | ConvertGrove",
+      "description": "Learn about ConvertGrove — a free, client-side toolkit of Base64, unit, number base, timezone, and color converters, built to run entirely in your browser."
+    },
+    {
+      "path": "/privacy-policy",
+      "navLabel": "Privacy Policy",
+      "tagline": "Privacy Policy",
+      "title": "Privacy Policy | ConvertGrove",
+      "description": "Read the ConvertGrove privacy policy: what data we process, how ads and cookies are used, and your choices."
+    },
+    {
+      "path": "/terms-of-service",
+      "navLabel": "Terms of Service",
+      "tagline": "Terms of Service",
+      "title": "Terms of Service | ConvertGrove",
+      "description": "The terms of service for using ConvertGrove's free browser-based conversion tools."
+    },
+    {
+      "path": "/contact",
+      "navLabel": "Contact",
+      "tagline": "Contact ConvertGrove",
+      "title": "Contact Us | ConvertGrove",
+      "description": "Report a bug, request a converter, or ask a question about ConvertGrove's free browser-based conversion tools."
+    }
+  ]
+}
